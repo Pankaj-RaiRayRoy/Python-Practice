@@ -17,8 +17,9 @@ Each script demonstrates a programming concept and connects it to Business Analy
 - **day2_largest_in_list_manual.py** – Finds the largest number in a list manually with loops.
 
 ### Day 3
-- **day3_sales_analysis.py** – Collects monthly sales data using sentinel‑controlled loops,  
-  calculates highest, lowest, and average sales, and prints a narrative summary to mimic Business Analyst reporting.
+* **day3_sales_analysis.py** – Calculates total, average, highest, and lowest monthly sales figures.
+* **day3_analyze_performance.py** – Custom function tracking team performance metrics and low-score indexing.
+
 
 ---
 
