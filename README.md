@@ -22,6 +22,8 @@ Each script demonstrates a programming concept and connects it to Business Analy
 
 ### Day 4
 * **day4_dictionary_practice.py** – Safe product lookup system demonstrating dictionary key-value validation.
+* **day4_employee_db.py** – Dynamically constructs an employee database with safe sentinel looping and nested assignments.
+
 
 
 
