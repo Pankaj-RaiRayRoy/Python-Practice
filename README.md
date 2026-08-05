@@ -20,6 +20,10 @@ Each script demonstrates a programming concept and connects it to Business Analy
 * **day3_sales_analysis.py** – Calculates total, average, highest, and lowest monthly sales figures.
 * **day3_analyze_performance.py** – Custom function tracking team performance metrics and low-score indexing.
 
+### Day 4
+* **day4_dictionary_practice.py** – Safe product lookup system demonstrating dictionary key-value validation.
+
+
 
 ---
 
