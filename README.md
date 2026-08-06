@@ -25,6 +25,10 @@ Each script demonstrates a programming concept and connects it to Business Analy
 * **day4_employee_db.py** – Dynamically constructs an employee database with safe sentinel looping and nested assignments.
 * **day4_ultimate_analyst.py** – Capstone project integrating dictionaries, sequential user logic, aggregation functions, and conditional roster outputs.
 
+### Day 5
+* **day5_inventory_value.py** – E-commerce inventory valuation script utilizing dictionary item unpacking, list indexing, and out-of-stock conditional checks.
+
+
 
 
 
