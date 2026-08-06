@@ -27,6 +27,8 @@ Each script demonstrates a programming concept and connects it to Business Analy
 
 ### Day 5
 * **day5_inventory_value.py** – E-commerce inventory valuation script utilizing dictionary item unpacking, list indexing, and out-of-stock conditional checks.
+* **day5_fraud_filter.py** – Risk prototype parsing dictionary transaction arrays to dynamically flag fraud accounts using multi-conditional logical operators.
+
 
 
 
