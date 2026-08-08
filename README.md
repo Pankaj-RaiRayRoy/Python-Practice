@@ -31,6 +31,38 @@ Each script demonstrates a programming concept and connects it to Business Analy
 * **day5_file_handling.py** – Implements contextual context managers to stream and strip raw external flat-file datasets line-by-line.
 
 
+## 📅 Day 6: Python File Handling Fundamentals
+
+Mastered managing external files—a critical skill for any Business Analyst tracking data streams, system logs, and flat data files.
+
+### Key Learnings:
+* **Read Mode (`"r"`)**: Using `with open()` blocks to safely open and extract data without memory leaks.
+* **Write Mode (`"w"`)**: Understanding how write mode completely overwrites existing file content.
+* **Append Mode (`"a"`)**: Learning to position the stream pointer at the end of a file to log data continuously using `.write()` without destroying existing information.
+
+### Scripts Developed:
+* `day6_read_passcode.py` - Initial blueprint for opening, reading, and storing text stream variables.
+* `day6_logs_management.py` - Core simulation of a continuous business logging pipeline tracking system error states.
+
+---
+
+## 📅 Day 7: Memory-Efficient Data Streaming & Counter Metrics
+
+Advanced to handling files line-by-line using loops, focusing on processing large-scale business logs and building operational KPI aggregates.
+
+### Key Learnings:
+* **Line-by-Line Loops**: Using `for line in file:` to pull individual data rows into memory sequentially, preventing memory overflow on massive datasets.
+* **Data Cleansing (`.strip()`)**: Shaving off trailing white spaces and embedded newline flags (`\n`) from raw file records.
+* **State Counters**: Initializing external tracking metrics and using conditional logic blocks (`if/else`) to isolate data segments and generate calculated KPIs.
+
+### Scripts Developed:
+* `day7_revision_challenge.py` - Consolidation script applying multiple concurrent file stream modalities.
+* `day7_line_reader.py` - Practical blueprint for clean streaming data layout using string manipulation.
+* `day7_audit_filter.py` - Target-specific data extraction utilizing substring membership queries.
+* `day7_metric_analyzer.py` - Executive summary calculator utilizing dual-state counter variables.
+
+
+
 
 
 
