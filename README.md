@@ -65,6 +65,8 @@ Advanced to handling files line-by-line using loops, focusing on processing larg
 * **day7_multi_layer_defense.py**: Independent tracking module exploring custom error stream catch mechanics.
 * **day7_column_parser.py**: Programmatic flat table file parsing module applying next-stream interception and mathematical element transformations.
 * **day7_numerical_filter.py**: Core data auditing script demonstrating programmatic range filtering metrics utilizing mathematical thresholds and native f-string presentation templates.
+* **day7_mini_project.py**: Capstone transaction auditing application combining data cleaning, multi-file appending, nested exception handling networks, and macro KPI aggregates.
+
 
 
 
