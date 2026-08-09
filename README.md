@@ -69,6 +69,22 @@ Advanced to handling files line-by-line using loops, focusing on processing larg
 
 
 
+## Day 8: Sales Report Generator 📈
+
+### Concepts Practiced
+* **File Handling**: Reading raw tracking items line-by-line and generating an automated output text file (`sales_summary.txt`).
+* **String Processing**: Striping whitespaces and parsing comma-separated variables using `.split()`.
+* **Dictionary Aggregation**: Implementing logic to uniquely map and accumulate sales values per customer without overwriting existing data keys.
+* **Custom Functions**: Abstracting revenue formulas into scalable functions.
+
+### Key Takeaway
+Learned that dictionary keys must remain unique, requiring custom conditional lookups (`if key in dict:`) to accumulate business values over time rather than overwriting historical records.
+
+
+
+
+
+
 
 
 
