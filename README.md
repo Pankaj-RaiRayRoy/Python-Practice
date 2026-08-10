@@ -81,6 +81,19 @@ Advanced to handling files line-by-line using loops, focusing on processing larg
 Learned that dictionary keys must remain unique, requiring custom conditional lookups (`if key in dict:`) to accumulate business values over time rather than overwriting historical records.
 
 
+## Day 9: Portfolio Expense Tracker 📊
+
+### Concepts Practiced
+* **Dynamic List Manipulation**: Populating an empty array from a raw file and appending new items explicitly using `.append()`.
+* **Data Cleansing Loop**: Running a robust lookup conditional while statement (`while target in list:`) to thoroughly scrub out anomalies or duplicate minor transactions.
+* **Array Aggregation**: Extracting absolute values efficiently using built-in methods like `sum()`, `max()`, and `len()`.
+* **Array Slicing**: Sorting data arrays in descending order using `.sort(reverse=True)` and extracting key metric segments using clean bracket slicing (`[:2]`) instead of error-prone manual index counters.
+
+### Key Takeaway
+Slicing arrays using standard position brackets handles varying dataset lengths seamlessly, preventing `IndexError` vulnerabilities during automated report production.
+
+
+
 
 
 
