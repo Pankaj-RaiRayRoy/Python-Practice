@@ -92,6 +92,24 @@ Learned that dictionary keys must remain unique, requiring custom conditional lo
 ### Key Takeaway
 Slicing arrays using standard position brackets handles varying dataset lengths seamlessly, preventing `IndexError` vulnerabilities during automated report production.
 
+# Underwriting Data Analytics Pipeline
+
+A collection of Python scripts designed to clean, process, and analyze risk assessment data for commercial credit portfolios.
+
+## Day 10: The Risk-Pool Cleanse (`day10_risk_cleanse.py`)
+
+### 📋 Scenario
+An automated system pulled a raw, unformatted list of credit risk scores for a commercial loan pool. The raw dataset contained non-numeric strings, duplicate applications, and negative values representing system errors. 
+
+### 🛠️ Implementation Details
+This script implements a strict data-cleansing pipeline using fundamental Python list structures:
+1. **Validation & Extraction**: Utilizes string methods (`.isdigit()`) to safely drop invalid characters and negative values while converting clean strings to integers.
+2. **Deduplication**: Filters out duplicate profiles to ensure independent applicant evaluations.
+3. **Sorting**: Orders the final validated risk pool in descending order (highest creditworthiness first).
+4. **Statistical Analysis**: Accurately extracts the **median score** of the pool using mathematical floor division (`//`) to identify the true center of the risk profile.
+
+
+
 
 
 
