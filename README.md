@@ -109,6 +109,26 @@ This script implements a strict data-cleansing pipeline using fundamental Python
 4. **Statistical Analysis**: Accurately extracts the **median score** of the pool using mathematical floor division (`//`) to identify the true center of the risk profile.
 
 
+## 📅 Day 11: Modular Programming & Function Integration
+
+### 🎯 Learning Focus
+* Transferred development environment to **Google Colab** for zero-configuration, cloud-based data processing.
+* Mastered the integration of **functions, loops, and lists** to simulate production-level data wrangling pipelines.
+* Practiced advanced list traversal and indexing techniques essential for Business Analyst workflows.
+
+### 💻 Challenges Completed
+
+#### 1. Premium Pricing Engine (`day11_premium_calculator.py`)
+* **Problem**: Designed a functional core engine to calculate insurance premium risk adjustments dynamically.
+* **Skills**: Function definitions (`def`), argument handling, floating-point arithmetic, and value returns.
+
+#### 2. Portfolio Premium Processor (`day11_portfolio_processor.py`)
+* **Problem**: Scaled the core calculation engine to process an entire collection of corporate policy profiles simultaneously.
+* **Skills**: Sequence bounds mapping via `range(len())`, list element indexing extraction, and loop-driven automation.
+
+### 📈 Business Analyst Relevance
+* Developed functional logic frameworks that mirror how risk adjustments are computed in live underwriting portfolios.
+* Transitioned from single-value execution to automated batch array processing, a critical prerequisite for SQL and Power BI algorithmic automation.
 
 
 
