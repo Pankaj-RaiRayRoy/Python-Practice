@@ -135,14 +135,24 @@ This script implements a strict data-cleansing pipeline using fundamental Python
 
 Welcome to my repository tracking my core technical milestones as I prepare to transition into a Business Analyst role. This repository showcases my data manipulation scripts, clean pipelines, and structural automation workflows.
 
-## 🚀 Day 12 Milestone: Call Analytics Pipeline
-Today's focus was mastering Python dictionary optimization methods to replace heavy control flow blocks, clean data anomalies, and run business aggregations.
+## 🚀 Day 12 Milestone: Data Aggregation & Safety Networks
+Today's focus was mastering Python dictionary optimization methods to replace heavy control flow blocks, clean data anomalies, and engineering comprehensive exception handling frameworks to make scripts completely crash-proof.
 
-### 📁 Key Project: `day12_call_analytics.py`
+### 📁 Core Project: `day12_call_analytics.py`
 This script simulates processing raw log streams from a customer service platform. It addresses three vital operational questions:
 1. **Data Aggregation**: Efficiently builds a data summary map using the `.get()` method to avoid logical structural overhead.
 2. **Metric Filtering**: Scans through live profiles using the `.items()` method unpacking pattern to isolate team members matching performance criteria.
 3. **Reverse Data Lookup**: Executes conditional matching to index specific entities based on direct transactional value thresholds.
+
+### 📁 Safety Architecture: Exception Handling Frameworks
+To guarantee script resilience when scraping web files or loading server databases, I engineered four custom exception handling blueprints:
+1. **`day12_error_handling.py`**: Intercepts calculation math traps (`ZeroDivisionError`) to establish data fallback constraints without stopping dashboard processing.
+2. **`day12_multiple_errors.py`**: Deploys a stacked multi-except architecture capable of screening distinct structural threats (`ValueError` vs. calculation faults) inside a dynamic list iteration loop.
+3. **`day12_file_safety.py`**: Restricts systemic file IO dependency risks (`FileNotFoundError`) to route data streams dynamically to backup repositories.
+4. **`day12_pipeline_complete.py`**: Implements the ultimate 4-stage processing matrix (`try / except / else / finally`) to guarantee safe remote database handshakes, performance notifications, and memory clean-ups.
+
+---
+*Follow along as I continue deploying technical automation models daily!*
 
 ---
 *Follow along as I continue deploying technical automation models daily!*
