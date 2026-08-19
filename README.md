@@ -173,7 +173,6 @@ Master the fundamentals of Python File I/O (Input/Output) workflows, learn how t
 * **Data Structure Exporting**: Automated data reporting by mapping a nested Python Dictionary (`.items()`) directly into formatted physical storage records using text f-strings.
 
 ### 💻 Code Artifacts
-* **`day14_intro.py`**: Initial deep dive into the absolute fundamentals of the Open-Read/Write-Close storage cycle.
 * **`day14_dictionary_to_file.py`**: An automated, exception-safe script that reads system profile variables from memory and commits them into a polished report file (`day14_report.txt`).
 
 ### 📊 Business Analyst Application
