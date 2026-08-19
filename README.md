@@ -160,24 +160,25 @@ To guarantee script resilience when scraping web files or loading server databas
     *   Structured error mitigation utilizing `try`, `except KeyError`, `else`, and `finally` blocks to intercept messy data exceptions without crashing scripts.
 *   **Business Context**: Simulated an automated corporate device tracker capable of reporting records dynamically or flagging missing department data lines gracefully.
 
-
 ## 📅 Day 14: File Handling & Defensive Data Parsing
 
 ### 🎯 Objective
-Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice extracting structured data from raw text files into data analytics pipelines.
+Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice processing, cleaning, and transforming raw data streams into production-ready business reports.
 
 ### 🛠️ Concepts Learned & Applied
-* **Data Stream Parsing (`.split()`)**: Learned how to dissect raw unstructured string text into workable python lists using delimiter tokens.
-* **String Immutability Fixes**: Mastered overwriting variable assignments (`line = line.strip()`) to guarantee clean data input handling.
-* **Defensive Pipeline Architecture**: Wrapped both reading and writing file blocks inside a complete `try-except` safety net to handle `FileNotFoundError` and runtime environment issues gracefully.
-* **Data Structure Exporting**: Automated data reporting by mapping a nested Python Dictionary directly into formatted physical storage records using text f-strings.
+* **Multi-Stream Architecture (`with open()`)**: Mastered opening multiple files simultaneously using comma separators (`with open() as f1, open() as f2`) to stream data efficiently from source to destination without nested bottlenecks.
+* **Stream Line-by-Line Processing**: Implemented iteration loops directly over file objects, combining string manipulation tools like `.strip()` to clear trailing newline (`\n`) formatting anomalies.
+* **String Immutability and Data Parsing**: Overcame the string immutability trap by properly reassigning variable states (`line = line.strip()`) and utilizing structural token splitting via `.split(",")`.
+* **Defensive Pipeline Engineering**: Enclosed all file stream contexts inside an airtight `try-except` framework to intercept `FileNotFoundError` and unexpected data runtime issues gracefully.
+* **Advanced Data Hygiene**: Developed automated sorting logic to filter out incomplete database records via list indexing while deploying chained transformations (`.replace("_", " ").title()`) to standardize messy data inputs.
 
 ### 💻 Code Artifacts
-* **`day14_dictionary_to_file.py`**: An automated, exception-safe script that reads system profile variables from memory and commits them into a polished report file (`day14_report.txt`).
-* **`day14_sales_parser.py`**: A real-world Business Analyst simulation script that ingests a raw data log (`day14_daily_sales.txt`), strips string anomalies, aggregates numeric variables dynamically, and generates an executive financial summary file (`financial_summary.txt`).
+* **`day14_dictionary_to_file.py`**: An automated, exception-safe script that reads system profile variables from working memory and commits them into an external tracking log (`day14_report.txt`).
+* **`day14_sales_parser.py`**: A Business Analyst data pipeline simulation that ingests a raw transactional text log, extracts integers from raw strings, aggregates financial totals, and exports an executive summary report (`financial_summary.txt`).
+* **`day14_user_scrub.py`**: An advanced backend data-cleaning pipeline that filters database sign-ups, checks for empty or corrupt data indexes, drops invalid accounts dynamically, and reformats names into clean Title Case for a final distribution list (`clean_users.txt`).
 
 ### 📊 Business Analyst Application
-In real-world data pipelines, information is rarely pristine. These milestones establish the critical technical baseline needed to automatically ingest system text logs, parse numerical values out of strings, compile aggregate statistics (Revenue/Expense/Profit), and export clean stakeholder summaries while building unbreakable, crash-proof code scripts.
+In real-world analytical environments, data is rarely handed to you in a perfect, clean format. The skills unlocked on Day 14 form the fundamental backbone needed to autonomously process server logs, parse financial transaction logs, drop empty or corrupt customer rows, and generate formatted stakeholder summaries without risking program crashes due to missing files or structural text anomalies.
 
 
 
