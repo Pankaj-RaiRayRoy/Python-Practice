@@ -163,23 +163,24 @@ To guarantee script resilience when scraping web files or loading server databas
 ## 📅 Day 14: File Handling & Defensive Data Parsing
 
 ### 🎯 Objective
-Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice processing, cleaning, and transforming raw data streams into production-ready business reports.
+Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice processing, filtering, and transforming raw unstructured log data streams into production-ready business reports.
 
 ### 🛠️ Concepts Learned & Applied
-* **Multi-Stream Architecture (`with open()`)**: Mastered opening multiple files simultaneously using comma separators (`with open() as f1, open() as f2`) to stream data efficiently from source to destination without nested bottlenecks.
+* **Multi-Stream Architecture (`with open()`)**: Mastered opening multiple files simultaneously using comma separators (`with open() as f1, open() as f2`) to efficiently transfer data from source to destination without nested processing bottlenecks.
 * **Stream Line-by-Line Processing**: Implemented iteration loops directly over file objects, combining string manipulation tools like `.strip()` to clear trailing newline (`\n`) formatting anomalies.
-* **String Immutability and Data Parsing**: Overcame the string immutability trap by properly reassigning variable states (`line = line.strip()`) and utilizing structural token splitting via `.split(",")`.
+* **String Immutability and Data Parsing**: Overcame the string immutability trap by properly reassigning variable states (`line = line.strip()`) and utilizing structural token splitting via `.split()`.
 * **Defensive Pipeline Engineering**: Enclosed all file stream contexts inside an airtight `try-except` framework to intercept `FileNotFoundError` and unexpected data runtime issues gracefully.
+* **Multi-Conditional Log Filtering**: Designed strict boolean validation criteria (`if X or Y`) to inspect string lists, dynamically routing critical tracking metrics while discarding noise rows (`INFO` logs).
 * **Advanced Data Hygiene**: Developed automated sorting logic to filter out incomplete database records via list indexing while deploying chained transformations (`.replace("_", " ").title()`) to standardize messy data inputs.
 
 ### 💻 Code Artifacts
 * **`day14_dictionary_to_file.py`**: An automated, exception-safe script that reads system profile variables from working memory and commits them into an external tracking log (`day14_report.txt`).
 * **`day14_sales_parser.py`**: A Business Analyst data pipeline simulation that ingests a raw transactional text log, extracts integers from raw strings, aggregates financial totals, and exports an executive summary report (`financial_summary.txt`).
 * **`day14_user_scrub.py`**: An advanced backend data-cleaning pipeline that filters database sign-ups, checks for empty or corrupt data indexes, drops invalid accounts dynamically, and reformats names into clean Title Case for a final distribution list (`clean_users.txt`).
+* **`day14_log_auditor.py`**: A high-density security evaluation tool that monitors raw system event logs, applies dual-conditional data evaluation to isolate critical errors, and dynamically streams corresponding threat warnings into an external alerts dashboard (`critical_alerts.txt`).
 
 ### 📊 Business Analyst Application
-In real-world analytical environments, data is rarely handed to you in a perfect, clean format. The skills unlocked on Day 14 form the fundamental backbone needed to autonomously process server logs, parse financial transaction logs, drop empty or corrupt customer rows, and generate formatted stakeholder summaries without risking program crashes due to missing files or structural text anomalies.
-
+In real-world analytical environments, data is rarely handed to you in a perfect, clean format. The skills unlocked on Day 14 form the fundamental backbone needed to autonomously process live server logs, audit infrastructure networks for specific operational errors, drop empty or corrupt customer rows, and generate formatted stakeholder summaries without risking program crashes due to missing files or structural text anomalies.
 
 
 ---
