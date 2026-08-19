@@ -161,22 +161,24 @@ To guarantee script resilience when scraping web files or loading server databas
 *   **Business Context**: Simulated an automated corporate device tracker capable of reporting records dynamically or flagging missing department data lines gracefully.
 
 
-## 📅 Day 14: File Handling & Defensive Programming
+## 📅 Day 14: File Handling & Defensive Data Parsing
 
 ### 🎯 Objective
-Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice extracting structured data from memory structures into physical storage reports.
+Master the fundamentals of Python File I/O (Input/Output) workflows, learn how to prevent application crashes using defensive exception handling, and practice extracting structured data from raw text files into data analytics pipelines.
 
 ### 🛠️ Concepts Learned & Applied
-* **File Operations (`with open()`)**: Utilized the context manager architecture to safe-handle `r` (Read), `w` (Write), and `a` (Append) file modes, eliminating the risk of stream memory leaks.
-* **Defensive Exception Architecture**: Wrapped file streams in robust `try-except` blocks targeting `FileNotFoundError` and operational `TypeErrors` to deliver user-friendly alerts instead of letting the application crash.
-* **Stream Line-by-Line Processing**: Implemented iterating over file objects via `for` loops and applied string manipulation tools like `.strip()` to scrub hidden trailing newline (`\n`) formatting anomalies from data streams.
-* **Data Structure Exporting**: Automated data reporting by mapping a nested Python Dictionary (`.items()`) directly into formatted physical storage records using text f-strings.
+* **Data Stream Parsing (`.split()`)**: Learned how to dissect raw unstructured string text into workable python lists using delimiter tokens.
+* **String Immutability Fixes**: Mastered overwriting variable assignments (`line = line.strip()`) to guarantee clean data input handling.
+* **Defensive Pipeline Architecture**: Wrapped both reading and writing file blocks inside a complete `try-except` safety net to handle `FileNotFoundError` and runtime environment issues gracefully.
+* **Data Structure Exporting**: Automated data reporting by mapping a nested Python Dictionary directly into formatted physical storage records using text f-strings.
 
 ### 💻 Code Artifacts
 * **`day14_dictionary_to_file.py`**: An automated, exception-safe script that reads system profile variables from memory and commits them into a polished report file (`day14_report.txt`).
+* **`day14_sales_parser.py`**: A real-world Business Analyst simulation script that ingests a raw data log (`day14_daily_sales.txt`), strips string anomalies, aggregates numeric variables dynamically, and generates an executive financial summary file (`financial_summary.txt`).
 
 ### 📊 Business Analyst Application
-In real-world analytical pipelines, data is rarely pristine or sitting nicely in working memory. This day's milestones establish the critical technical baseline needed to automatically ingest system logs, export clean stakeholder summaries, and build unbreakable scripts that won't fall over if an automated data drop folder is missing a file.
+In real-world data pipelines, information is rarely pristine. These milestones establish the critical technical baseline needed to automatically ingest system text logs, parse numerical values out of strings, compile aggregate statistics (Revenue/Expense/Profit), and export clean stakeholder summaries while building unbreakable, crash-proof code scripts.
+
 
 
 ---
